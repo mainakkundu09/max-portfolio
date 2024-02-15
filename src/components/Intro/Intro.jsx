@@ -30,7 +30,7 @@ const Intro = () => {
           <span style={{ color: darkMode ? "white" : "" }}>Hi there, I'𝓂</span>
           <span>Mainak Kundu</span>
           <span>
-          I possess a foundational understanding of the basics of Computer Science Engineering technologies with robust problem-solving skills.
+          I possess a foundational understanding of the basics of Computer Science Engineering technologies with robust problem-solving skills .
           </span>   
         </div>
         <Link to="contact" smooth={true} spy={true}>

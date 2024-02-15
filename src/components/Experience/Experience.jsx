@@ -9,20 +9,44 @@ const Experience = () => {
     <div className="experience" id='experience'>
       <div className="achievement">
         {/* darkMode */}
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>8+</div>
-        <span  style={{color: darkMode?'white':''}}>years </span>
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
+        <span  style={{color: darkMode?'white':''}}>Effective </span>
+        <span>Communication Skills</span>
+      </div>
+      <div className="achievement">
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>80%</div>
+        <span  style={{color: darkMode?'white':''}}>Team </span>
+        <span>Collaboration</span>
+      </div>
+      <div className="achievement">
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>90%</div>
+        <span  style={{color: darkMode?'white':''}}>Problem</span>
+        <span>Solving</span>
+      </div>
+      <div className="achievement">
+        {/* darkMode */}
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>95%</div>
+        <span  style={{color: darkMode?'white':''}}>Adaptability </span>
         <span>Experience</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>20+</div>
-        <span  style={{color: darkMode?'white':''}}>completed </span>
-        <span>Projects</span>
+        {/* darkMode */}
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>80%</div>
+        <span  style={{color: darkMode?'white':''}}>Time </span>
+        <span>Management</span>
       </div>
       <div className="achievement">
-        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>5+</div>
-        <span  style={{color: darkMode?'white':''}}>companies </span>
-        <span>Work</span>
+        {/* darkMode */}
+        <div className="circle" style={{color: darkMode?'var(--orange)':''}}>85%</div>
+        <span  style={{color: darkMode?'white':''}}>Leadership </span>
+        <span>Skills</span>
       </div>
+      
+     
+    
+     
+    
+      
     </div>
   );
 };

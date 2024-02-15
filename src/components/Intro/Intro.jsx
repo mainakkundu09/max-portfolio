@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
-import boy from "../../img/boy.png";
+import boy from "../../img/Maxx3.jpg";
 import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
@@ -27,28 +27,34 @@ const Intro = () => {
       <div className="i-left">
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
-          <span style={{ color: darkMode ? "white" : "" }}>Hy! I Am</span>
-          <span>Andrew Thomas</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Hi there, I'𝓂</span>
+          <span>Mainak Kundu</span>
           <span>
-            Frontend Developer with high level of experience in web designing
-            and development, producting the Quality work
-          </span>
+          I possess a foundational understanding of the basics of Computer Science Engineering technologies with robust problem-solving skills.
+          </span>   
         </div>
         <Link to="contact" smooth={true} spy={true}>
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
         <div className="i-icons">
-          <img src={Github} alt="" />
-          <img src={LinkedIn} alt="" />
-          <img src={Instagram} alt="" />
+          {/* <img src={Github} alt="" /> */}
+          <a href="https://github.com/mainakkundu09" target="_blank" rel="noopener noreferrer">
+             <img src={Github} alt="GitHub" />
+          </a>
+          <a href="https://www.linkedin.com/in/mainak-kundu-a78889217/" target="_blank" rel="noopener noreferrer">
+            <img src={LinkedIn} alt="LinkedIn" />
+          </a>
+          <a href="https://www.instagram.com/maxxmovess/" target="_blank" rel="noopener noreferrer">
+            <img src={Instagram} alt="Instagram" />
+          </a>
         </div>
       </div>
       {/* right image side */}
       <div className="i-right">
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
-        <img src={boy} alt="" />
+        <img className="hi-mulla" src={boy} alt="" />
         {/* animation */}
         <motion.img
           initial={{ left: "-36%" }}
@@ -64,7 +70,7 @@ const Intro = () => {
           transition={transition}
           className="floating-div"
         >
-          <FloatinDiv img={crown} text1="Web" text2="Developer" />
+          <FloatinDiv img={crown} text1="Developer" />
         </motion.div>
 
         {/* animation */}
@@ -75,7 +81,7 @@ const Intro = () => {
           className="floating-div"
         >
           {/* floatinDiv mein change hy dark mode ka */}
-          <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
+          <FloatinDiv img={thumbup} text1="Best Design with optimization of code" text2="You will get from me" />
         </motion.div>
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

@@ -50,8 +50,14 @@
 }
 /* right side styling */
 .i-right {
+  
   flex: 1;
   position: relative;
+}
+
+.hi-mulla{
+  width: 300px;
+  border-radius: 20rem;
 }
 .i-right > * {
   position: absolute;

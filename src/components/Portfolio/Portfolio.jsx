@@ -1,11 +1,12 @@
 import React, { useContext } from "react";
+import {Link} from "react-router-dom";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Vifnx from "../../img/vifnx.png";
+import VitPGFriendly from "../../img/vitpgFriendly.png";
+import MaxxWeather from "../../img/maxxweatherap.png";
+import PortfolioMainak from "../../img/Mainak_portfolio.png";
 import { themeContext } from "../../Context";
 const Portfolio = () => {
   const theme = useContext(themeContext);
@@ -23,17 +24,27 @@ const Portfolio = () => {
         grabCursor={true}
         className="portfolio-slider"
       >
+       
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+        <a href="https://vifnx-academy.vercel.app/" target="_blank" rel="noopener noreferrer">
+          <img src={Vifnx} alt="" />
+        </a>
+        </SwiperSlide>
+
+    
+
+        <SwiperSlide>
+        <a href="https://github.com/mainakkundu09/VIT-PG-Friendly" target="_blank" rel="noopener noreferrer">
+          <img src={VitPGFriendly} alt="" />
+        </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+        <a href="https://mainak-maxxweatherapp-5f7334.netlify.app/" target="_blank" rel="noopener noreferrer">
+          <img src={MaxxWeather} alt="" />
+        </a>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={PortfolioMainak} alt="" />
         </SwiperSlide>
       </Swiper>
     </div>

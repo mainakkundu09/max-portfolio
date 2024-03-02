@@ -52,7 +52,7 @@ const Services = () => {
            Let's build something awesome together
         </spane>
         <a href={Resume} download>
-          <button className="button s-button">Download CV</button>
+          {/* <button className="button s-button">Download CV</button> */}
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
       </div>

@@ -45,7 +45,7 @@ const Intro = () => {
           <a href="https://www.linkedin.com/in/mainak-kundu-a78889217/" target="_blank" rel="noopener noreferrer">
             <img src={LinkedIn} alt="LinkedIn" />
           </a>
-          {/* <a href="https://www.instagram.com/maxxmovess/" target="_blank" rel="noopener noreferrer"> */}
+          {/* <a href="https://www.instagram.com/maxxmovess/" target="_blank" rel="noopener noreferrer">
             <img src={Instagram} alt="Instagram" />
           </a> */}
         </div>

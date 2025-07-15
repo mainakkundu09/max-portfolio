@@ -47,7 +47,7 @@ const Intro = () => {
           </a>
           {/* <a href="https://www.instagram.com/maxxmovess/" target="_blank" rel="noopener noreferrer"> */}
             <img src={Instagram} alt="Instagram" />
-          </a>
+          </a> */}
         </div>
       </div>
       {/* right image side */}
